@@ -6,9 +6,13 @@
 - The value is concatenated with the ```src``` attribute of the img tag
 
 ## PAYLOAD
-```http://localhost:80?search="><svg onload=alert(1)>```
+```http://localhost:8080?search="><svg onload=alert(1)>```
 
 ## How to:
+- Run build_docker
+- Use the payload above
+- You should see an alert window
+
 
 #### Reference
 DOM XSS in document.write sink using source location.search \
