@@ -1,2 +1,2 @@
 # Portswigger-Academy-Mock
-A collection of mocked labs from Potswigger Academy
+A collection of mocked labs from Portswigger Academy
