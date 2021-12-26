@@ -16,5 +16,5 @@
 - You should see an alert window
 
 #### Reference
-DOM XSS in document.write sink using source location.search inside a select element
+DOM XSS in document.write sink using source location.search inside a select element \
 https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element
