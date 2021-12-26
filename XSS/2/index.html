@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside select tag</title>
+</head>
+<body>
+    <h1>Document.write sink with location.search source inside select</h1>
+    <script>
+
+        var pcaps = ["cyber", "appsec", "dev"]
+        // payload = ..?pcap="></select><img%20src=1%20onerror=alert(1)>
+        var pcapId = (new URLSearchParams(window.location.search)).get('pcap');
+        //console.log(pcapId)
+
+        document.write('<select name="pcap">')
+        if (pcapId) {
+            document.write('<option selected>'+pcapId+'</option>')
+        }
+        for(var i=0;i<pcaps.length;i++) {
+            if(pcaps[i] === pcapId) {
+                continue
+            }
+            document.write('<option>'+pcaps[i]+'</option>')
+        }
+    
+        document.write('</select>')
+    </script>
+</body>
+
+
+</html>
+
+<!--
+    Once again, this will only work on Chrome
+-->
