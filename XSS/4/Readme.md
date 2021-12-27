@@ -5,7 +5,7 @@
 -  and changes its href attribute using data from location.search
 
 ## PAYLOAD
-- Plaintext ```  https://acc61f4d1f44b274c0c728f200f80033.web-security-academy.net/feedback?returnPath=javascript:alert(document.cookie);```
+- Plaintext ```http://localhost:8082/?returnPath=javascript:alert(1);``
 
 ## How to:
 - Run build_docker
