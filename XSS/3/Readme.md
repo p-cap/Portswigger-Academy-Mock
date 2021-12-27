@@ -19,5 +19,5 @@
 - Only works on CHROME
 
 #### Reference
-DOM XSS in innerHTML sink using source location.search
+DOM XSS in innerHTML sink using source location.search \
 https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink
