@@ -20,5 +20,5 @@
 DOM XSS in jQuery anchor href attribute sink using location.search source \
 https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink
 
-HTML <a> href Attribute
+HTML <a> href Attribute \
 https://www.w3schools.com/tags/att_a_href.asp
