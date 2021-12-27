@@ -5,7 +5,7 @@
 -  and changes its href attribute using data from location.search
 
 ## PAYLOAD
-- Plaintext ```http://localhost:8082/?returnPath=javascript:alert(1);``
+- Plaintext ```http://localhost:8082/?returnPath=javascript:alert(1);```
 
 ## How to:
 - Run build_docker
