@@ -10,4 +10,4 @@ docker rmi -f dom_xss_3
 docker build -t dom_xss_3 .
 
 # create container
-docker run -it -d -p 8080:80 --name=dom_xss_2 --rm dom_xss_3
+docker run -it -d -p 8080:80 --name=dom_xss_3 --rm dom_xss_3
