@@ -1,11 +1,23 @@
-# How to
-1. docker build -t sample-site .
-2. docker run -it -d -p 80:80 sample-site
-3. To look inside the site:
-   - docker exec -it $container_name bash 
-   - verify the index.html if it was copied onto the container
-3. localhost:80
+# DOM XSS in innerHTML sink using source location.search
 
-### Reference:
-Deploy a Static Wesbite with Docker
-https://tecadmin.net/tutorial/docker-run-static-website
+## SYNOPSIS
+- Created a static page with a search field
+- ```query``` variable gets the value of the key query srting named ```search```
+- Renders the value of the ```search``` key if it contains a html element 
+
+## PAYLOAD
+- Plaintext ``` http://localhost:8081/?search=<div><svg onload=alert(1)></div>```
+- URL encoded ```http://localhost:8081/?search=%3Cdiv%3E%3Csvg%20onload=alert(1)%3E%3C/div%3E```
+
+## How to:
+- Run build_docker
+- Use the payload above
+- You should see an alert window
+
+### NOTE
+- Tested on both Safari and Chrome
+- Only works on CHROME
+
+#### Reference
+DOM XSS in innerHTML sink using source location.search
+https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink
