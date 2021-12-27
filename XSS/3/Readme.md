@@ -1,18 +1,11 @@
-# DOM XSS in innerHTML sink using source location.search
-
-## SYNOPSIS
-- Created a static page with a search bar
-- The submit button triggers a get request via the action attribute of the form
-- ```doSearchQuery``` function pulls a query string that contains search key 
-
-## PAYLOAD
-Plaintext ```<div><svg onload=alert(1)></div>```
-
-## How to
-- Run build_docker
-- Use the payload above
-- You should see an alert window
+# How to
+1. docker build -t sample-site .
+2. docker run -it -d -p 80:80 sample-site
+3. To look inside the site:
+   - docker exec -it $container_name bash 
+   - verify the index.html if it was copied onto the container
+3. localhost:80
 
 ### Reference:
-DOM XSS in innerHTML sink using source location.search \
-https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink
+Deploy a Static Wesbite with Docker
+https://tecadmin.net/tutorial/docker-run-static-website

@@ -1,0 +1,32 @@
+<!--
+    Wrap it inside a div
+    <div><svg onload=alert(1)></div>
+
+    link : https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-innerhtml-sink
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerhtml sink</title>
+</head>
+<body>
+    <form action="/" method="GET">
+        <input type="text" placeholder="Searching" name="search">
+        <button type="submit">SEARCH</button>
+    </form>
+    <span id="searchMessage"></span>
+</body>
+<script>
+    function doSearchQuery(query) {
+        document.getElementById('searchMessage').innerHTML = query
+    }
+    query = (new URLSearchParams(window.location.search)).get('search');
+    if(query) {
+            doSearchQuery(query);
+    }
+</script>
+</html>

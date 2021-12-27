@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+# remove docker container if it exists
+docker rm -f dom_xss_3
+
+# remove image if it exists
+docker rmi -f dom_xss_3
+
+# build image 
+docker build -t dom_xss_3 .
+
+# create container
+docker run -it -d -p 8080:80 --name=dom_xss_2 --rm dom_xss_3
