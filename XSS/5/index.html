@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HashChange Demo</title>
+</head>
+<body>
+    <div id="container">
+        <h1>HashChange Demo</h1>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script>
+      const container = document.getElementById("container")
+      
+      for (i = 0; i < 10; i++) {
+        const li = document.createElement('li')
+        li.id = 'pcap' + i
+        const br = document.createElement('br')
+        li.innerHTML = 'list' + i + '<br/>' + '<br/>' + '<br/>' + '<br/>' + '<br/>' + '<br/>'
+        container.appendChild(li)
+        li.appendChild(br)
+    }
+     
+    $(window).on('hashchange', function(){
+     
+       var post = $('#container li:contains(' + decodeURIComponent(window.location.hash.slice(1)) + ')');
+       if (post) post.get(0).scrollIntoView();
+    });
+    </script>
+</html>
+
+
+
+
