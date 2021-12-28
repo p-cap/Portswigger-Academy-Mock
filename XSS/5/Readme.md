@@ -10,7 +10,7 @@
 - I STILL NEED SOME CLARIFICATION ON HOW THIS WORKS
 
 ## How to:
-- chmod 700 ```build_docker```
+- ```chmod 700 build_docker```
 - Run build_docker
 - Use the payload above
 - You should see an alert window
