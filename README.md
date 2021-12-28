@@ -7,3 +7,6 @@ A collection of mocked labs from Portswigger Academy
 - [DOM XSS in innerHTML sink using source location.search](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/3)
 - [DOM XSS in jQuery anchor href attribute sink using location.search source](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/4)
 - [DOM XSS in jQuery selector sink using a hashchange event (ON HOLD)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/5)
+
+### Dev platform /environment
+Mac
