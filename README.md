@@ -8,6 +8,7 @@ A collection of mocked labs from Portswigger Academy
 - [DOM XSS in jQuery anchor href attribute sink using location.search source](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/4)
 - [DOM XSS in jQuery selector sink using a hashchange event (ON HOLD)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/5)
 - [DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded (ON HOLD)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/6)
+- [Reflected DOM XSS](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/7)
 
 ### Dev platform /environment
 Mac
