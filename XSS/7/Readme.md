@@ -27,6 +27,9 @@
 - Tested on both Safari and Chrome
 - Only works on CHROME
 
+## WHY STILL NEEDS WORK?
+After the inital request via ```XMLHttpRequest()```, I cannot respond to that same request within the same server. Based on my observation, the lab is grabbing the request and returning JSON response.
+
 ## REFERENCE
 Reflected XSS \
 https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-reflected
