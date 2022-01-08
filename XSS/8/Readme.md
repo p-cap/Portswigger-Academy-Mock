@@ -46,8 +46,8 @@ git pull origin master
 - ```chmod clone_sub```
 - ```clone_sub XSS/8 https://github.com/p-cap/Portswigger-Academy-Mock.git```
 - ```git branch``` to check if the master branch exists
-- ```git checkout master``` to switch brnaches
-- Change into the directory of the newly cloned subdirectory
+- ```git checkout master``` to switch branches
+- Change into the directory into the newly cloned subdirectory
 
 ## Reference
 HTML Entities   
