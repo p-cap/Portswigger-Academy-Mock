@@ -14,7 +14,7 @@ function escapeHTML(html) {
 let newInnerHtml = firstPElement.innerHTML + escapeHTML(comment.author)
                 firstPElement.innerHTML = newInnerHtml
 ```
-## Payload
+## PAYLOAD
 ```<><img src=1 onerror=alert(1)>```
 
 ## WHY STILL NEEDS WORK?
