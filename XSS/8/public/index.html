@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stored DOM Demo</title>
+</head>
+<body>
+    <h1 id="welcome"> Welcome to my Stored DOM Demo </h1>
+    <form action="/">
+        <label for="comment">Comment: </label>
+        <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        <button type="submit">SUBMIT</button>
+    </form>
+   
+
+    <span id="user-comments"></span>
+</body>
+<script src="/js/pcap.js"></script>
+<script>callMe('/posts')</script>
+</html>
+
+<!--
+    Enable an endpoint that I can access via browser
+-->
