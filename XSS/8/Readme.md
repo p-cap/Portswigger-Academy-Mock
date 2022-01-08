@@ -22,7 +22,8 @@ When trying to submit the value inside the field, it would append it into the qu
 There are two things happenning here:
 - When I use Burpsuite, the return I am getting from the endpoint is a 302
 - But, with dev tools, I am getting the expected json return 
-- Why? Why? Why?
+Why? Why? Why? \
+Also, I need work on understanding the ```loadCommentsWithVulnerableEscapeHtml.js``` file 
 
 ## How to:
 - run the script below 
