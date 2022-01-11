@@ -1,0 +1,2 @@
+# CSRF where token validation depends on request method
+- [Follow the methodology from CSRF vulnerability with no defenses](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/CSRF/1%20-%20CSRF%20vulnerability%20with%20no%20defenses)
