@@ -1,6 +1,5 @@
 # Portswigger-Academy-Mock
-A collection of mocked labs from Portswigger Academy
-
+A collection of mocked labs from Portswigger Academy and methodologies on how to perform the attacks
 ## XSS
 - [DOM XSS in document.write sink using source location.search](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/1)
 - [DOM XSS in document.write sink using source location.search inside a select element](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/2)
@@ -10,6 +9,9 @@ A collection of mocked labs from Portswigger Academy
 - [DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded (SNW)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/6)
 - [Reflected DOM XSS(SNW)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/7)
 - [Stored XSS (SNW)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/8)
+
+## CSRF
+- [CSRF vulnerability with no defenses ATTACKOLOGY]()
 
 ### Dev platform /environment
 Mac
