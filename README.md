@@ -11,7 +11,7 @@ A collection of mocked labs from Portswigger Academy and methodologies on how to
 - [Stored XSS (SNW)](https://github.com/p-cap/Portswigger-Academy-Mock/tree/main/XSS/8)
 
 ## CSRF
-- [CSRF vulnerability with no defenses ATTACKOLOGY]()
+- [CSRF vulnerability with no defenses ATTACKOLOGY](https://github.com/p-cap/Portswigger-Academy-Mock/blob/main/CSRF/1%20-%20CSRF%20vulnerability%20with%20no%20defenses/Readme.md)
 
 ### Dev platform /environment
 Mac
